@@ -3,6 +3,7 @@
 import { load as loadState, reset as resetState } from "./state.js";
 import { renderDashboard, updateProgressBar } from "./dashboard.js";
 import { openLesson, countSteps } from "./lesson.js";
+import { isUnlocked, showGate, signOut } from "./gate.js";
 
 const dashEl = document.getElementById("dash");
 const lessonEl = document.getElementById("lessonView");
@@ -27,6 +28,12 @@ async function loadLesson(id) {
 }
 
 async function init() {
+  // Demo password gate — friction barrier only, not real security.
+  // For production: replace with backend auth per BUILD-SPEC §5.
+  if (!isUnlocked()) {
+    await new Promise((resolve) => showGate(resolve));
+  }
+
   loadState();
   manifest = await fetchJson("content/manifest.json");
 
@@ -53,6 +60,9 @@ function setupChrome() {
       renderHome();
       location.hash = "#/";
     }
+  });
+  document.getElementById("signOutBtn").addEventListener("click", () => {
+    if (confirm("Sign out and re-enter the access code?")) signOut();
   });
 
   // Endnotes drawer

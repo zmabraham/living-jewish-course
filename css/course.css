@@ -970,6 +970,112 @@ footer.foot {
   padding: var(--space-6) var(--space-5);
   letter-spacing: 0.04em;
 }
+
+/* ============================================================
+   DEMO PASSWORD GATE
+   ============================================================ */
+.demo-gate {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  background: var(--color-bg);
+  background-image:
+    radial-gradient(circle at 18% 12%, rgba(96, 48, 72, 0.10), transparent 45%),
+    radial-gradient(circle at 82% 88%, rgba(192, 120, 144, 0.12), transparent 45%);
+  display: grid;
+  place-items: center;
+  padding: var(--space-5);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.35s ease;
+}
+.demo-gate.show { opacity: 1; pointer-events: auto; }
+.demo-gate-card {
+  max-width: 480px;
+  width: 100%;
+  background: var(--color-surface);
+  border: var(--border-hairline);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-lg);
+  padding: var(--space-8) var(--space-7);
+  text-align: center;
+}
+.demo-gate-card .kicker {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--color-secondary);
+  margin-bottom: var(--space-4);
+}
+.demo-gate-card h1 {
+  font-family: var(--font-display);
+  font-weight: 300;
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  line-height: 1.05;
+  letter-spacing: -0.01em;
+  color: var(--color-primary);
+  margin: 0 0 var(--space-4);
+}
+.demo-gate-card h1 br { display: block; }
+.demo-gate-card .lead {
+  font-family: var(--font-serif-fine);
+  font-size: 1rem;
+  color: var(--color-fg-2);
+  margin: 0 0 var(--space-6);
+  line-height: 1.5;
+}
+.demo-gate-card form {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  align-items: stretch;
+  text-align: left;
+}
+.demo-gate-card label {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-fg-3);
+}
+.demo-gate-card input {
+  font-family: var(--font-sans-text);
+  font-size: 18px;
+  letter-spacing: 0.3em;
+  text-align: center;
+  padding: 14px 16px;
+  border: var(--border-hairline);
+  border-radius: var(--radius-md);
+  background: var(--paper-warm);
+  color: var(--color-fg);
+  outline: none;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+.demo-gate-card input:focus {
+  border-color: var(--color-primary);
+  background: var(--color-surface);
+}
+.demo-gate-card .btn {
+  margin-top: var(--space-3);
+  width: 100%;
+}
+.demo-gate-card .err {
+  font-family: var(--font-sans-text);
+  font-size: 13px;
+  color: var(--color-bad);
+  text-align: center;
+  margin-top: var(--space-2);
+}
+.demo-gate-card .fine {
+  font-family: var(--font-sans-text);
+  font-size: 11px;
+  color: var(--color-fg-3);
+  margin: var(--space-6) 0 0;
+  letter-spacing: 0.04em;
+}
 footer.foot a { color: var(--color-fg-3); border-bottom-color: transparent; }
 footer.foot a:hover { color: var(--color-primary); }
 
