@@ -1,0 +1,31 @@
+{
+  "id": "17-rising-occasion",
+  "num": "17",
+  "tag": "Chapter Seventeen",
+  "title": "Rising to the Occasion",
+  "subtitle": "",
+  "status": "draft",
+  "blocks": [
+    {
+      "t": "p",
+      "text": "Content for this lesson has not yet been ingested from the book. Run `python scripts/extract_book.py` (see scripts/README.md) to populate it. Each lesson is rendered one idea per screen by the platform's stepper."
+    }
+  ],
+  "gate": {
+    "type": "quiz",
+    "pass": 0.75,
+    "questions": [
+      {
+        "q": "(Placeholder question — populate from the book's Chapter Assessment.)",
+        "options": [
+          "A",
+          "B",
+          "C",
+          "D"
+        ],
+        "correct": 0
+      }
+    ]
+  },
+  "notes": []
+}

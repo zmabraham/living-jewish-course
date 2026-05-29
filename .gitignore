@@ -1,0 +1,8 @@
+tmp/
+data/extracted/
+*.pyc
+__pycache__/
+.DS_Store
+node_modules/
+.env
+*.log

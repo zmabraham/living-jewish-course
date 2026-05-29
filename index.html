@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Living Jewish — The Complete Guide to Keeping Kosher</title>
+<meta name="description" content="A self-paced online course on the laws of kashrus — one lesson at a time, drawn from the Living Jewish series.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23603048'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='Georgia,serif' font-weight='400' font-size='40' fill='%23faf7f2'%3E%D7%9C%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/tokens.css">
+<link rel="stylesheet" href="css/course.css">
+</head>
+<body>
+
+<header class="top">
+  <div class="top-inner">
+    <button class="brand" id="brandHome" aria-label="Back to all lessons">
+      <span class="mark">ל</span>
+      <span class="name">Living Jewish<small>Keeping Kosher</small></span>
+    </button>
+    <div class="top-right">
+      <div class="progress-mini" aria-label="Course progress">
+        <span id="pct">0%</span>
+        <span class="bar"><i id="barFill"></i></span>
+      </div>
+      <button class="ghost-btn" id="resetBtn" type="button">Reset progress</button>
+    </div>
+  </div>
+</header>
+
+<!-- DASHBOARD -->
+<main id="dash" class="wrap">
+  <section class="hero">
+    <div class="kicker">An A–Z Learning Experience</div>
+    <h1><span class="br">The Complete Guide</span><span class="br">to Keeping Kosher</span></h1>
+    <p>Work through the laws of kashrus one lesson at a time. Each lesson advances one idea per screen — the next chapter unlocks when you pass the lesson assessment.</p>
+    <div class="rule"></div>
+  </section>
+  <section class="lessons" id="lessonGrid" aria-label="Lessons"></section>
+</main>
+
+<!-- LESSON VIEW -->
+<main id="lessonView" class="wrap lesson" aria-live="polite"></main>
+
+<!-- ENDNOTES DRAWER -->
+<button class="notes-toggle" id="notesToggle" type="button" aria-controls="notesDrawer" aria-expanded="false">
+  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="9" y1="13" x2="15" y2="13"/><line x1="9" y1="17" x2="15" y2="17"/></svg>
+  Endnotes
+</button>
+<div class="notes-drawer-backdrop" id="notesBackdrop"></div>
+<aside class="notes-drawer" id="notesDrawer" aria-label="Endnotes" aria-hidden="true">
+  <div class="head">
+    <h3>Endnotes</h3>
+    <button class="ghost-btn" id="closeNotes" aria-label="Close endnotes">Close ✕</button>
+  </div>
+  <div class="body" id="notesBody">
+    <p class="lj-caption">No endnotes for this lesson.</p>
+  </div>
+</aside>
+
+<footer class="foot">
+  <span>Living Jewish · The Complete Guide to Keeping Kosher</span>
+  <span> · </span>
+  <a href="https://github.com" id="repoLink">Source</a>
+</footer>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

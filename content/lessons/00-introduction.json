@@ -1,0 +1,20 @@
+{
+  "id": "00-introduction",
+  "num": "·",
+  "tag": "Introduction",
+  "title": "Introduction",
+  "subtitle": "",
+  "status": "draft",
+  "blocks": [
+    {
+      "t": "p",
+      "text": "Content for this lesson has not yet been ingested from the book. Run `python scripts/extract_book.py` (see scripts/README.md) to populate it. Each lesson is rendered one idea per screen by the platform's stepper."
+    }
+  ],
+  "gate": {
+    "type": "acknowledge",
+    "label": "Mark complete",
+    "text": "When the content is ingested, this screen will introduce the lesson and let you continue."
+  },
+  "notes": []
+}

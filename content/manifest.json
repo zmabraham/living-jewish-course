@@ -1,0 +1,210 @@
+[
+  {
+    "id": "00-introduction",
+    "num": "\u00b7",
+    "tag": "Introduction",
+    "title": "Introduction",
+    "subtitle": "",
+    "status": "draft"
+  },
+  {
+    "id": "01-kosher-code",
+    "num": "1",
+    "tag": "Chapter One",
+    "title": "The Kosher Code",
+    "subtitle": "",
+    "status": "draft"
+  },
+  {
+    "id": "02-farm-to-table",
+    "num": "2",
+    "tag": "Chapter Two",
+    "title": "From Farm to Table",
+    "subtitle": "",
+    "status": "draft"
+  },
+  {
+    "id": "03-line-drawn-in-torah",
+    "num": "3",
+    "tag": "Chapter Three",
+    "title": "A Line Drawn in Torah",
+    "subtitle": "",
+    "status": "draft"
+  },
+  {
+    "id": "04-waiting-game",
+    "num": "4",
+    "tag": "Chapter Four",
+    "title": "The Waiting Game",
+    "subtitle": "",
+    "status": "draft"
+  },
+  {
+    "id": "05-at-the-table",
+    "num": "5",
+    "tag": "Chapter Five",
+    "title": "At the Table",
+    "subtitle": "",
+    "status": "draft"
+  },
+  {
+    "id": "06-flavor-factor",
+    "num": "6",
+    "tag": "Chapter Six",
+    "title": "The Flavor Factor",
+    "subtitle": "",
+    "status": "draft"
+  },
+  {
+    "id": "07-mixups-mishaps",
+    "num": "7",
+    "tag": "Chapter Seven",
+    "title": "Mix-Ups and Mishaps",
+    "subtitle": "",
+    "status": "draft"
+  },
+  {
+    "id": "08-material-advantage",
+    "num": "8",
+    "tag": "Chapter Eight",
+    "title": "Material Advantage",
+    "subtitle": "",
+    "status": "draft"
+  },
+  {
+    "id": "09-in-hot-water",
+    "num": "9",
+    "tag": "Chapter Nine",
+    "title": "In Hot Water",
+    "subtitle": "",
+    "status": "draft"
+  },
+  {
+    "id": "10-purification-by-fire",
+    "num": "10",
+    "tag": "Chapter Ten",
+    "title": "Purification by Fire",
+    "subtitle": "",
+    "status": "draft"
+  },
+  {
+    "id": "11-modern-challenges",
+    "num": "11",
+    "tag": "Chapter Eleven",
+    "title": "Modern Challenges, Ancient Solutions",
+    "subtitle": "",
+    "status": "draft"
+  },
+  {
+    "id": "12-immersion-therapy",
+    "num": "12",
+    "tag": "Chapter Twelve",
+    "title": "Immersion Therapy",
+    "subtitle": "",
+    "status": "draft"
+  },
+  {
+    "id": "13-gray-zone",
+    "num": "13",
+    "tag": "Chapter Thirteen",
+    "title": "Navigating the Gray Zone",
+    "subtitle": "",
+    "status": "draft"
+  },
+  {
+    "id": "14-cutting-edge",
+    "num": "14",
+    "tag": "Chapter Fourteen",
+    "title": "The Cutting Edge of Kashrus",
+    "subtitle": "",
+    "status": "draft"
+  },
+  {
+    "id": "15-blueprint",
+    "num": "15",
+    "tag": "Chapter Fifteen",
+    "title": "Blueprint for Kosher Living",
+    "subtitle": "",
+    "status": "draft"
+  },
+  {
+    "id": "16-ground-up",
+    "num": "16",
+    "tag": "Chapter Sixteen",
+    "title": "From the Ground Up",
+    "subtitle": "",
+    "status": "draft"
+  },
+  {
+    "id": "17-rising-occasion",
+    "num": "17",
+    "tag": "Chapter Seventeen",
+    "title": "Rising to the Occasion",
+    "subtitle": "",
+    "status": "draft"
+  },
+  {
+    "id": "18-lechayim",
+    "num": "18",
+    "tag": "Chapter Eighteen",
+    "title": "Lechayim!",
+    "subtitle": "",
+    "status": "draft"
+  },
+  {
+    "id": "19-bread-together",
+    "num": "19",
+    "tag": "Chapter Nineteen",
+    "title": "Bread That Brings Us Together",
+    "subtitle": "",
+    "status": "draft"
+  },
+  {
+    "id": "20-taste-tradition",
+    "num": "20",
+    "tag": "Chapter Twenty",
+    "title": "The Taste of Tradition",
+    "subtitle": "",
+    "status": "draft"
+  },
+  {
+    "id": "21-milk-matters",
+    "num": "21",
+    "tag": "Chapter Twenty-One",
+    "title": "Milk Matters",
+    "subtitle": "",
+    "status": "draft"
+  },
+  {
+    "id": "22-out-in-world",
+    "num": "22",
+    "tag": "Chapter Twenty-Two",
+    "title": "Out in the World",
+    "subtitle": "",
+    "status": "draft"
+  },
+  {
+    "id": "23-sealed-delivered",
+    "num": "23",
+    "tag": "Chapter Twenty-Three",
+    "title": "Sealed and Delivered",
+    "subtitle": "",
+    "status": "draft"
+  },
+  {
+    "id": "24-behind-label",
+    "num": "24",
+    "tag": "Chapter Twenty-Four",
+    "title": "Behind the Label",
+    "subtitle": "",
+    "status": "draft"
+  },
+  {
+    "id": "25-safety-first",
+    "num": "25",
+    "tag": "Chapter Twenty-Five",
+    "title": "Safety First",
+    "subtitle": "The Laws of Sakanah",
+    "status": "draft"
+  }
+]
